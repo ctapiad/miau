@@ -35,6 +35,24 @@ public class Personas {
         this.edad = edad;
     }
     
-           
-    
+     public void pruebaPersonas()
+    {
+        if (this.edad > 18)
+        {
+            System.out.println("Usted es mayor de edad");
+        }
+        else
+        {
+            if (this.edad <=12 && this.getEdad()>=17){
+                System.out.println("Usted es joven");
+            }
+            else
+            {
+            System.out.println("Usted es menor de edad, es un niño");
+            }
+        }
+    } 
+     public static void main(String[] args) {
+        
+    }
 }
