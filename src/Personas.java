@@ -7,14 +7,14 @@
  *
  * @author vina
  */
-public class Condiciones {
+public class Personas {
     private String nombre;
     private int edad;
 
-    public Condiciones() {
+    public Personas() {
     }
 
-    public Condiciones(String nombre, int edad) {
+    public Personas(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
