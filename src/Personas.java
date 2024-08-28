@@ -43,7 +43,7 @@ public class Personas {
         }
         else
         {
-            if (this.edad <=12 && this.getEdad()>=17){
+            if (this.edad >=12 && this.getEdad()<=17){
                 System.out.println("Usted es joven");
             }
             else
@@ -53,6 +53,16 @@ public class Personas {
         }
     } 
      public static void main(String[] args) {
+         
+         Personas con1 = new Personas("Juan",15);
+         con1.pruebaPersonas();
+         System.out.println(con1.getEdad());
+         con1.setEdad(4);
+         con1.pruebaPersonas();
+         System.out.println(con1.getEdad());
+         con1.setEdad(15);
+         con1.pruebaPersonas();
+         System.out.println("");
         
     }
 }
